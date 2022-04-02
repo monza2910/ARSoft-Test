@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.btn-tugas-baru{
+    color: aliceblue;
+    background-color: aqua;
+}
+.btn-tugas-baru:hover{
+    color: white;
+}
+.btn-complete{
+    border: 1px;
+    border-color: aqua;
+}
+.tampilan-tugas{
+    font-size: 12px;
+}
+.uncompleted{
+    color: white;
+    background-color: #4247FE ;
+}
+
+
+/* section task */
+.card{
+    border-radius: 7px;
+}
+.bunderan{
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    background-color: #40A91D
+}
+.bunderan-red{
+    background-color: red;
+}
+.btn-tanggal{
+    font-size: 12px;
+    background-color: #F76916;
+    height: 30px;
+}
+.card-task-add{
+    border: 10px dashed #C1C0C0;
+}
+
+.button-add-task{
+    color: #C1C0C0;
+    text-align: center;
+}
+
+.modal .modal-dialog-aside{
+	width: 350px; max-width:80%; height: 100%; margin:0;transform: translate(0); transition: transform .2s;
+}
+.modal .modal-dialog-aside .modal-content{
+    height: inherit;
+    border:0;
+    border-radius: 15px;
+}
+.modal .modal-dialog-aside .modal-content .modal-body{
+    overflow-y: auto
+}
+.modal.fixed-left .modal-dialog-aside{
+    margin-left:auto;
+    transform: translateX(100%);
+}
+.modal.fixed-right .modal-dialog-aside{
+    margin-right:auto;
+    transform: translateX(-100%);
+}
+.modal.show .modal-dialog-aside{
+    transform: translateX(0);
+}
